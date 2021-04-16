@@ -66,6 +66,7 @@ try:
 
 except:
    print ("Error: unable to start")
+   conn.close()
 
 while 1:
    pass

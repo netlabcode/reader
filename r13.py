@@ -209,6 +209,7 @@ try:
 
 except:
    print ("Error: unable to start thread")
+   conn.close()
 
 while 1:
    pass
