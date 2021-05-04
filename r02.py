@@ -5,7 +5,7 @@ import _thread
 import time
 import socket
 
-PORT1 = 8801
+PORT1 = 8802
  
 
 def serverX():
