@@ -14,7 +14,7 @@ def serverX():
             s1.listen()
             conn1, addr = s1.accept()
             with conn1:
-                print('Server 1 from:',addr)
+                print('Server Substation 14 from:',addr)
 
                 conn = psycopg2.connect(host="131.180.165.7",database="CRoF",user="postgres", password="crpg")
                   
@@ -89,11 +89,11 @@ def serverX():
                     except:
                         conn1.close()
                         conn.close()
-                        print("Connection Close")
+                        print("Connection Close Substation 14")
                         break
                 
                 conn1.close()
-                print("Restart Server")
+                print("Restart Server Substation 14")
                 conn.close()
                 s1.close()
                 time.sleep(1)
